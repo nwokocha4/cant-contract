@@ -1,0 +1,31 @@
+    FIRST TASK
+pages content
+home page for visitors
+faq page using drop down
+Details page about mint
+Map page using mad pics of other project
+visitors
+
+
+     SECOND TASK
+1. wrap the whole application inside the wallet connect
+2. add a new container to home page when the MINT NOW  button is clicked
+3. if wallet is not whitelisted, throw error wallet not whitelisted
+4. if wallet is whitelisted change container content
+5. inside wl container show mint remaining claim
+6. allow user input number of max mint per wallet
+7. connect mint button to backend
+
+
+
+
+
+
+
+ <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path='/about' element={<About />} />
+      <Route exact path='/details' element={<Details />} />
+      <Route exact path='/map' element={<Map />} />
+      <Route exact path='/faq' element={<FAQ />} />
+    </Routes>
